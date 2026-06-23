@@ -1,5 +1,9 @@
 # InnsmUTR
 
+<p align="center">
+  <img src="assets/innsmutr_logo.svg" width="260" alt="InnsmUTR logo"/>
+</p>
+
 Benchmarking tool for UTR annotation. Compares a UTR-annotated GFF3 (e.g. the
 output of a PASA UTR-addition run) against a reference / gold-standard GFF3,
 and reports presence and boundary-accuracy metrics for 5' and 3' UTRs.
