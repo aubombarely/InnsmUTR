@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "InnsmUTR"
+abstract: >
+  InnsmUTR is a UTR annotation tool with two modes: (1) compare_utr_annotation.py
+  benchmarks existing UTR annotations in a GFF3 against a reference, and
+  (2) InnsmUTR.py adds UTRs to a genome annotation by aligning transcript
+  sequences with minimap2 or GMAP and extending CDS boundaries. Named after
+  Innsmouth (H.P. Lovecraft) + UTR.
+authors:
+  - family-names: Bombarely
+    given-names: Aureliano
+    email: aubombarely@gmail.com
+    orcid: ""
+version: "v0.2.0"
+date-released: "2026-06-24"
+license: MIT
+repository-code: "https://github.com/aubombarely/InnsmUTR"
+keywords:
+  - UTR annotation
+  - genome annotation
+  - RNA-seq
+  - bioinformatics
+  - plant genomics
