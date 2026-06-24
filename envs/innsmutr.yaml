@@ -4,6 +4,11 @@ channels:
   - conda-forge
 dependencies:
   - python>=3.10
+  # InnsmUTR.py — UTR addition
+  - minimap2
+  - gmap
+  - codecarbon         # optional; enables carbon footprint tracking
+  # compare_utr_annotation.py — UTR benchmarking
   - pandas
   - bedtools
   - pybedtools
